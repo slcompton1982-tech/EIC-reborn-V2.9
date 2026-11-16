@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.eic.reborn'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.eic.reborn'
+        minSdk 29
+        targetSdk 32
+        versionCode 1
+        versionName '1.0'
+    }
+}
